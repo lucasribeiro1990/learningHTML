@@ -129,12 +129,62 @@ nav#menu a:hover{
 
 section#corpo {
 	display: block;
-	width: 520px;
+	width: 500px;
 	float: left;
 	border-right: 1px solid #606060;
 	padding-right: 15px;
 }
 
+article#noticia-principal h2 {
+	
+}
+
+/*CONFIGURANDO TABELA*/
+table#tabelaspec {
+	border: solid 2px #606060;
+	border-spacing: 0px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table#tabelaspec td {
+	border: 1px solid #606060;
+	padding: 10px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+table#tabelaspec td.ce {
+	color: white;
+	background: #606060;
+	vertical-align: top;
+	text-align: right;
+	font-weight: bold;
+}
+
+table#tabelaspec td.cd {
+	background: #cecece;
+	text-align: left;
+}
+
+table#tabelaspec caption {
+	color: #888888;
+	font-size: 13pt;
+	font-weight: bolder;
+	text-align: center;
+}
+
+table#tabelaspec caption span {
+	display: block;
+	padding: 0px;
+	text-align: right;
+	float: right;
+	color: #888888;
+	font-size: 8pt;
+	margin-top: 10px;
+}
+
+/*CONFIGURANDO CORPO DA PÁGINA*/
 aside#lateral {
 	display: block;
 	width: 350px;
