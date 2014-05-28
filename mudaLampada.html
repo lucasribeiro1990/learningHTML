@@ -1,0 +1,20 @@
+<html lang="pt-br">
+	<header>
+		<meta charset="UTF-8"/>
+		<title>Acende Lâmpada</title>
+		<script type="text/javascript">
+			function acendeLampada(){
+				document.getElementById("luz").src="_imagens/lampada-acesa.jpg";
+			}
+			function apagaLampada(){
+				document.getElementById("luz").src="_imagens/lampada-apagada.jpg";
+			}
+			function quebraLampada(){
+				document.getElementById("luz").src="_imagens/lampada-quebrada.jpg";
+			}
+		</script>
+	</header>
+	<bofdy>
+		<img src="_imagens/lampada-apagada.jpg" id="luz" onclick="quebraLampada()" onmousemove="acendeLampada()" onmouseout="apagaLampada()" />
+	</body>
+</html>
